@@ -1,0 +1,14 @@
+<h2>Code mirror using wrapper angular ngx-codemirror</h2>
+<ngx-codemirror
+  #codeeditor
+  [(ngModel)]="query"
+  [options]="codeMirrorOptions"
+  [autoFocus]="true"
+>
+</ngx-codemirror>
+
+<br />
+<h2>Code mirrror using the library codemirror javascript</h2>
+<textarea #ref></textarea>
+
+<router-outlet></router-outlet>
