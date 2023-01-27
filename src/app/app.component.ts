@@ -58,9 +58,4 @@ export class AppComponent {
     // display the autocomplite with ctrl+space (init the combox)
     init(this._codeMirror);
   }
-
-  setEditorContent(event: any) {
-    console.log(event);
-  }
-
 }
